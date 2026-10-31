@@ -26,6 +26,8 @@ This is not my first day learning nor doing things, but this will be the startin
 
 ***18:52*** I built the first complete version of the password checker and pushed it to GitHub.
 
+***19:01*** Taking a break (maybe stopping for today)
+
 ***Things I learned:***
 - `islower()`: checks if said character is lowercase (if yes, returns `True`)
 - `isupper()`: checks if said character is uppercase (if yes, returns `True`)
@@ -35,4 +37,4 @@ This is not my first day learning nor doing things, but this will be the startin
 - You can print lists cleanly by using `.join()` (e.g. `print', '.join(list_name)`). The characters inside the quotes (`', '`) act as the glue between each item in the list. (What comes between each one)
 - You can check if a list is empty by writing `if not list_name:`
 
-***1h spent***
+***2h spent***
