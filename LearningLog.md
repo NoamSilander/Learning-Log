@@ -48,3 +48,5 @@ This is not my first day learning nor doing things, but this will be the startin
 ***Things I learned:***
 - `import random` is not good for real security and passwords, because it's randomness algorithm is predictable and seedable. For real password generation, use `import secrets` which gives 'truly' random numbers. You use it by writing `secrets.choice(your_string)` and it gives you one character from it at random.
 - `import string` which is a module that has ready made strings (thus the name). `string.ascii_letters` gives `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`, `string.digits` gives `0123456789`, and `string.punctuation` gives `!"#$%&'()*+,-./:;<=>?@[\]^_'{|}~` (I had to replace ` with ' for it to properly format in Markdown.)
+
+***2h spent***

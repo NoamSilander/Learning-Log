@@ -38,3 +38,17 @@ This is not my first day learning nor doing things, but this will be the startin
 - You can check if a list is empty by writing `if not list_name:`
 
 ***2h spent***
+
+## 01.11.2026
+
+***Python #2***
+
+***17:37*** I began work on a password generator (since it fits yesterdays project of a password checker)
+
+**19:34** I finished building the password generator and pushed it to GitHub under the name `Python-Password-Generator`. You can also paste the link `https://github.com/NoamSilander/Python-Password-Generator`. Taking a break.
+
+***Things I learned:***
+- `import random` is not good for real security and passwords, because it's randomness algorithm is predictable and seedable. For real password generation, use `import secrets` which gives 'truly' random numbers. You use it by writing `secrets.choice(your_string)` and it gives you one character from it at random.
+- `import string` which is a module that has ready made strings (thus the name). `string.ascii_letters` gives `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`, `string.digits` gives `0123456789`, and `string.punctuation` gives `!"#$%&'()*+,-./:;<=>?@[\]^_'{|}~` (I had to replace ` with ' for it to properly format in Markdown.)
+
+***2h spent***
