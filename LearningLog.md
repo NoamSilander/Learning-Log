@@ -50,3 +50,16 @@ This is not my first day learning nor doing things, but this will be the startin
 - `import string` which is a module that has ready made strings (thus the name). `string.ascii_letters` gives `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`, `string.digits` gives `0123456789`, and `string.punctuation` gives `!"#$%&'()*+,-./:;<=>?@[\]^_'{|}~` (I had to replace ` with ' for it to properly format in Markdown.)
 
 ***2h spent***
+
+## 02.11.2026
+
+***11:51*** I began studying `with` and the `open()` function to prepare for building a saving TO-DO list.
+
+***12:45*** I finished getting familiar with `open()` and began working on the TO-DO list.
+
+***14:38*** I got the TO-DO list about 70% done. College ended so I'm taking a break until I return home.
+
+***Things I learned:***
+- using `\n` after a string makes the next one start on a new line (e.g. print('first line\n second line'))
+- `with open('file', 'mode', 'encoding') as variable:` is the structure. `with` also closes the file immediatly once the body ends.
+- `open()` modes include `r` = **read the file**, `w` = **wipe the file and write**, `a` = **append (write to the end without wiping)**, `x` = **exclusive creation (Only allows if file doesn't exist. Raises `FileExistsError`)**
