@@ -65,3 +65,26 @@ This is not my first day learning nor doing things, but this will be the startin
 - using `\n` after a string makes the next one start on a new line (e.g. print('first line\n second line'))
 - `with open('file', 'mode', 'encoding') as variable:` is the structure. `with` also closes the file immediatly once the body ends.
 - `open()` modes include `r` = **read the file**, `w` = **wipe the file and write**, `a` = **append (write to the end without wiping)**, `x` = **exclusive creation (Only allows if file doesn't exist. Raises `FileExistsError`)**
+
+***3h spent***
+
+## 03.11.2026
+
+***Python #4***
+
+***10:34*** I continued work on the TO-DO list
+***11:56*** I finished the TO-DO list and pushed it to GitHub under the name `Python-TO-DO-list` or just paste the link `https://github.com/NoamSilander/Python-TO-DO-list` (the program is kind of messy but I really don't feel like working on it anymore)
+
+***13:06*** I finalized the list and repo. Taking a break
+
+***Things I learned:***
+- `continue` inside a loop stops it, and starts the next round
+- You can chain `with` statements (e.g. `with open('file1.txt', encoding='utf-8') as source, open('file2.txt' 'w', encoding='utf-8') as target:)
+- the `os` module. At least a part of it. `os.replace('file1.txt', 'file2.txt')` renames `file1.txt` to `file2.txt`, and deletes the origina `file2.txt`
+- (almost) All errors are under `Exception`. `OSError` happens when the operating system refuses (or fails) an operation. For example trying to write to a read-only file.
+- Main guards: If you have a function/piece of code that runs automatically when the script runs, you should wrap it in a main guard: `if __name__ == '__main__:`. Every Python script has a hidden built-in variable called `__name__`. When the script is run directly, that variable gets assigned the value `__main__`. If the script is imported as a module `import script`, `__name__` gets assigned the script name (without **.py**) as the value. The guard checks if the script is run directly, and only then runs the function/piece of code inside the body. It is done so if you import and use a part of the script in a different script, the automatic parts won't run.
+
+***2.5h spent***
+
+## 04.11.2026
+I took a break for today.
