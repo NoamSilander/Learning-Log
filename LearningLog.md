@@ -88,3 +88,25 @@ This is not my first day learning nor doing things, but this will be the startin
 
 ## 04.11.2026
 I took a break for today.
+
+## 05.11.2026
+
+***Python #5***
+
+***10:48*** I began work on a small login log reporter
+
+***11:30*** I finished v.1 of the login log reporter
+
+***12:50*** I finished v.2 of the login log reporter. It is now way more robust and can actually handle real messy linux logs. I'm quite proud of myself for how it turned out.
+
+***13:07*** I pushed v.2 with a README, under the name `Python-Login-Log-Reporter` or paste the link `https://github.com/NoamSilander/Python-Login-Log-Reporter` Taking a small break
+
+***14:05*** I began work on a word counter
+
+***14:36*** College ended so I'm returning home and taking a break. I got the base of the word counter done.
+
+***Things I learned:***
+- `.split()` Takes a string (for example `'My name is John'`) and splits it in the whitespace (if nothing is put into the brackets) and returns a list `['My', 'name', 'is', 'John']`. If something is put inside the brackets (e.g. `.split(',')`), it will split it at the given character e.g. `I,am,not,here` with split(',') will give `['I', 'am', 'not', 'here']`. To limit the amount of cuts you can either use `.split(maxsplit=2)` if you want to split whitespace, or `.split('char', 2)` to stop at 2 splits. `.rsplit` begins the split from the right. `.rsplit(maxsplit=1)` will return the string `My name is John` as `['My name is', 'John]`.
+- The `ipaddress` module. I still don't know it fully, but I used it to check for valid IP addresses by trying to assign `ipaddress.ip_address('ip_address')` and seeing if it ValueErrors. If it doesn't, it's a real IP address.
+
+***4h spent***
