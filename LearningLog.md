@@ -110,3 +110,23 @@ I took a break for today.
 - The `ipaddress` module. I still don't know it fully, but I used it to check for valid IP addresses by trying to assign `ipaddress.ip_address('ip_address')` and seeing if it ValueErrors. If it doesn't, it's a real IP address.
 
 ***4h spent***
+
+## 06.11.2026
+
+***Python #6***
+
+***13:37*** I continued work on the word counter
+
+***14:35*** I finished v.1 of the word counter. I tried implementing a sorter function that sorts the numbers in appearance frequency, but I eventually decided to leave it for a later day due to it using complicated logic and new methods and functions I hadn't learned yet. 
+
+***14:43*** I finished writing a README for the counter and pushed it to my GitHub under the name `Python-Word-Counter` or just paste the link `https://github.com/NoamSilander/Python-Word-Counter`. I'm gonna take a break since I don't feel the best right now.
+
+***Things I learned***
+- You can pass lists and dictionaries as parameters in functions
+- You can use the `.items()` method on a dictionary to get both the key, and the associated value.
+- If you want to remove an item from a list or dictionary you can use the `del` command, to remove it directly, or the `.pop()` method to remove it and pass the removed item to a variable (e.g. `del dict['Key']` or `removed_item = dict.pop('Key')`). You can clear and entire list or dictionary by using the `.clear()` method. 
+
+***1h spent***
+
+## 07.11.2026
+I took a break for today.
