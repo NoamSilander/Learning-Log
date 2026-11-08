@@ -130,3 +130,19 @@ I took a break for today.
 
 ## 07.11.2026
 I took a break for today.
+
+## 08.11.2026
+
+***Python #7***
+
+***19:50*** I began work on a number guessing game
+
+***22:12*** I finished v.1 of the number guessing game
+
+***22:23*** I finished writing a README for the game, and pushed it to GitHub under the name `Python-Number-Guessing-Game` or just paste the link `https://github.com/NoamSilander/Python-Number-Guessing-Game`
+
+***Things I learned***
+- I previously used the `random` module to shuffle a range using `random.shuffle(list)`. Now I learned `random.radint(x, y)` which will give you a random whole number between the range you gave it. The difference being that unlike in `range(1, 6)` that gives numbers from 1-5, `random.randint(1, 6)` gives a random number from 1-6 (end number included).
+- Improved my efficiency and function calling (less unneeded code).
+
+***2.5h spent***
