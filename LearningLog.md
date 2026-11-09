@@ -121,7 +121,7 @@ I took a break for today.
 
 ***14:43*** I finished writing a README for the counter and pushed it to my GitHub under the name `Python-Word-Counter` or just paste the link `https://github.com/NoamSilander/Python-Word-Counter`. I'm gonna take a break since I don't feel the best right now.
 
-***Things I learned***
+***Things I learned:***
 - You can pass lists and dictionaries as parameters in functions
 - You can use the `.items()` method on a dictionary to get both the key, and the associated value.
 - If you want to remove an item from a list or dictionary you can use the `del` command, to remove it directly, or the `.pop()` method to remove it and pass the removed item to a variable (e.g. `del dict['Key']` or `removed_item = dict.pop('Key')`). You can clear and entire list or dictionary by using the `.clear()` method. 
@@ -141,8 +141,26 @@ I took a break for today.
 
 ***22:23*** I finished writing a README for the game, and pushed it to GitHub under the name `Python-Number-Guessing-Game` or just paste the link `https://github.com/NoamSilander/Python-Number-Guessing-Game`
 
-***Things I learned***
+***Things I learned:***
 - I previously used the `random` module to shuffle a range using `random.shuffle(list)`. Now I learned `random.radint(x, y)` which will give you a random whole number between the range you gave it. The difference being that unlike in `range(1, 6)` that gives numbers from 1-5, `random.randint(1, 6)` gives a random number from 1-6 (end number included).
 - Improved my efficiency and function calling (less unneeded code).
 
 ***2.5h spent***
+
+## 09.11.2026
+
+***Python #8***
+
+***12:25*** I began studying JSON files and Python commands in preparation to build a JSON contact book.
+
+***12:48*** I began work on the JSON contact book
+
+***14:36*** I took a break because college ended
+
+***Things I learned:***
+- The `json` module. `json.dumps(dict)` takes an existing dictionary, and turns it into a string. While it looks nearly the same, running type() on it will give you `class str`. `json.loads(dict)` does the opposite. it takes the output of `json.dumps()` and turns it back from a string to a dictionary. However, if a dict key is an integer, for example `1`, using `json.dumps()` will turn it into a string `1`. The functions without the `s` at the end are for files and are the way more used ones.
+`json.dump(value, file)` and `json.load(file)`.
+- Python has `match` cases. you use them by writing ``match name: case 'alice':``, for example. `|` means `or`. `case _:` is the `else` equivalent.
+- Type hints. e.g. `def calculator(number1: int, number2: int) -> int:`. 
+- You can check if a file exists by using the `os` module using the `.exists()` function of the `path` module. E.g. `os.path.exists('file')`.
+- Nevermind `from pathlib import Path` is way better and more modern. you use the searching function by writing `Path(file).exists()`
