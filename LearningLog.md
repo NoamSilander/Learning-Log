@@ -164,3 +164,21 @@ I took a break for today.
 - Type hints. e.g. `def calculator(number1: int, number2: int) -> int:`. 
 - You can check if a file exists by using the `os` module using the `.exists()` function of the `path` module. E.g. `os.path.exists('file')`.
 - Nevermind `from pathlib import Path` is way better and more modern. you use the searching function by writing `Path(file).exists()`
+
+***2h spent***
+
+## 10.11.2026
+
+***Python #9***
+
+***10:39*** I continued working on the JSON contact book
+
+***12:22*** I made good progress, but I'm taking a small break right now
+
+***12:36*** I continued working
+
+***14:07*** College ended so I'm returning home. I finished implementing adding and saving logic, so i'm really happy with what I've done today.
+
+***Things I learned:***
+- `open()` accepts filenames in the `Path(file)` form too.
+- The `sys` module. Specifically `sys.exit()` which force closes the program from anywhere.
