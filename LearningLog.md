@@ -182,3 +182,22 @@ I took a break for today.
 ***Things I learned:***
 - `open()` accepts filenames in the `Path(file)` form too.
 - The `sys` module. Specifically `sys.exit()` which force closes the program from anywhere.
+
+***3.5h spent***
+
+## 11.11.2026
+---
+
+## 12.11.2026
+
+***Python #9***
+
+***10:40*** I continued work on the contact book
+
+***14:26*** I'm really progressing in the contact book, and I feel like I'll soon get it done. College ended so im returning home
+
+***Things I learned:***
+- `ANSI escape codes`. Ways to natively make terminal text bold/italic/strikethrough/underlined. You should use it by defining a variable with the corresponding ANSI command and then calling it inside f-strings. E.g. `BOLD = '\033[1m', RESET = '\033[0m', print(f'{BOLD}THis text is bold {RESET}')`. You must remember to reset it, or all subsequent text will be bold. Each number before `m` means a different thing: `0 = reset`, `1 = bold`, `2 = dim`, `3 = italic`, `4 = underlined`, `9 = strikethrough`
+- `f-strings` work anywhere, even outside `print()`
+- `if not` works on empty inputs and strings too.¨
+- The `.replace()` method. You give it a string, something to search for, and something to replace it with. E.g. `recipe = 'tomato and cucumber', recipe.replace('tomato', 'avocado'), `will return `'avocado and cucumber'`.
