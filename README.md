@@ -146,3 +146,73 @@ I took a break for today.
 - Improved my efficiency and function calling (less unneeded code).
 
 ***2.5h spent***
+
+## 09.11.2026
+
+***Python #8***
+
+***12:25*** I began studying JSON files and Python commands in preparation to build a JSON contact book.
+
+***12:48*** I began work on the JSON contact book
+
+***14:36*** I took a break because college ended
+
+***Things I learned:***
+- The `json` module. `json.dumps(dict)` takes an existing dictionary, and turns it into a string. While it looks nearly the same, running type() on it will give you `class str`. `json.loads(dict)` does the opposite. it takes the output of `json.dumps()` and turns it back from a string to a dictionary. However, if a dict key is an integer, for example `1`, using `json.dumps()` will turn it into a string `1`. The functions without the `s` at the end are for files and are the way more used ones.
+`json.dump(value, file)` and `json.load(file)`.
+- Python has `match` cases. you use them by writing ``match name: case 'alice':``, for example. `|` means `or`. `case _:` is the `else` equivalent.
+- Type hints. e.g. `def calculator(number1: int, number2: int) -> int:`. 
+- You can check if a file exists by using the `os` module using the `.exists()` function of the `path` module. E.g. `os.path.exists('file')`.
+- Nevermind `from pathlib import Path` is way better and more modern. you use the searching function by writing `Path(file).exists()`
+
+***2h spent***
+
+## 10.11.2026
+
+***Python #9***
+
+***10:39*** I continued working on the JSON contact book
+
+***12:22*** I made good progress, but I'm taking a small break right now
+
+***12:36*** I continued working
+
+***14:07*** College ended so I'm returning home. I finished implementing adding and saving logic, so i'm really happy with what I've done today.
+
+***Things I learned:***
+- `open()` accepts filenames in the `Path(file)` form too.
+- The `sys` module. Specifically `sys.exit()` which force closes the program from anywhere.
+
+***3.5h spent***
+
+## 11.11.2026
+---
+
+## 12.11.2026
+
+***Python #9***
+
+***10:40*** I continued work on the contact book
+
+***14:26*** I'm really progressing in the contact book, and I feel like I'll soon get it done. College ended so im returning home
+
+***Things I learned:***
+- `ANSI escape codes`. Ways to natively make terminal text bold/italic/strikethrough/underlined. You should use it by defining a variable with the corresponding ANSI command and then calling it inside f-strings. E.g. `BOLD = '\033[1m', RESET = '\033[0m', print(f'{BOLD}THis text is bold {RESET}')`. You must remember to reset it, or all subsequent text will be bold. Each number before `m` means a different thing: `0 = reset`, `1 = bold`, `2 = dim`, `3 = italic`, `4 = underlined`, `9 = strikethrough`
+- `f-strings` work anywhere, even outside `print()`
+- `if not` works on empty inputs and strings too.¨
+- The `.replace()` method. You give it a string, something to search for, and something to replace it with. E.g. `recipe = 'tomato and cucumber', recipe.replace('tomato', 'avocado'), `will return `'avocado and cucumber'`.
+
+***3.5h***
+
+## 13.11.2026
+
+---
+
+## 14.11.2026
+
+***Python #10***
+
+***18:59*** I continued working on the contact book
+***21:26*** I finally finished v.1 of the JSON Contact Book. I'll write the README tomorrow.
+
+***2.5h spent***

@@ -201,3 +201,18 @@ I took a break for today.
 - `f-strings` work anywhere, even outside `print()`
 - `if not` works on empty inputs and strings too.¨
 - The `.replace()` method. You give it a string, something to search for, and something to replace it with. E.g. `recipe = 'tomato and cucumber', recipe.replace('tomato', 'avocado'), `will return `'avocado and cucumber'`.
+
+***3.5h***
+
+## 13.11.2026
+
+---
+
+## 14.11.2026
+
+***Python #10***
+
+***18:59*** I continued working on the contact book
+***21:26*** I finally finished v.1 of the JSON Contact Book. I'll write the README tomorrow.
+
+***2.5h spent***
