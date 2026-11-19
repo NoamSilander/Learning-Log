@@ -216,3 +216,51 @@ I took a break for today.
 ***21:26*** I finally finished v.1 of the JSON Contact Book. I'll write the README tomorrow.
 
 ***2.5h spent***
+
+## 15.11.2026
+
+---
+
+## 16.11.2026
+
+***Python #11***
+
+***11:08*** I began writing the README for the contact book
+***11:42*** I finished writing the readme and pushed it to GitHub under the name `Python-JSON-Contact-Book` or just paste the link `https://github.com/NoamSilander/Python-JSON-Contact-Book`
+***40 mins spent***
+
+## 17.11.2026
+
+***Python #12***
+
+***10:53*** I began learning the `datetime` module to begin building a date calculator.
+
+***11:02*** I began work on a date calculator
+
+***Things I learned:***
+- The `raise` keyword. With it, you can write custom error messages. E.g. `raise ValueError('Error message')`
+- You can assign multiple variables to a list directly. E.g. `item1, item2 = item_list`
+- The `datetime` module, the classes imported from it `date, datetime, timedelta`, and what they do. `date`: You can make a date using this class. E.g. `day = date(2026, 11, 17)` in the order of year, month, day. printing just `day` returns `2026-11-17`. Date also has attributes that you can use. `.year, .month, .day` each printing the corresponding piece. `date.today()` gives today's date. You can turn a date into text with `.strftime()` (f for format) using format codes. E.g. `day.strftime('%d.%m.%Y')` returns `17.11.2026`. `%d` = **day**, `%m` = **month**, `%Y` = **year**, `%A` = **the weekday's name**. Subtracting two dates gives the time between them, and `.days` gives it as a number. E.g. `(date(2026, 12, 24) - date(2026, 11, 17)).days` returns `37`. Swapping the order returns `-37`. Dates can also be compared with `<`, `>` and `==` (an earlier date counts as smaller). `datetime`: A date plus a time of day. E.g. `datetime(2026, 12, 24, 18, 30)` is `2026-12-24 18:30:00`. It can do everything `date` can, plus it has `.hour, .minute, .second`. `datetime.now()` gives the current date and time. `datetime.strptime()` (p for parse) turns text into a `datetime` using the same format codes. E.g. `datetime.strptime('24.12.2026', '%d.%m.%Y')`. If the text doesn't match the pattern or the date doesn't exist, it raises a `ValueError`. It always returns a `datetime`, so `.date()` turns it into a plain `date` (needed because `datetime` and `date` can't be mixed in maths or comparisons). `timedelta`: A length of time. E.g. `timedelta(days=30)`. It also takes `weeks`, `hours`, `minutes` and `seconds`. Adding it to a date moves the date. E.g. `date(2026, 11, 17) + timedelta(days=30)` returns `2026-12-17`, and a negative number goes backwards.
+
+## 18.11.2026
+I'm gonna fill this in later
+
+## 19.11.2026
+
+***Python #14***
+
+***10:02*** I continued work on the typing speed tester
+
+***11:16*** I'm taking a break
+
+***11:27*** I continued work on the typing speed tester
+
+***13:51*** College ended so I'm taking a break
+
+***Things I learned:***
+- `: Literal['option1', 'option2', etc]` typehint. With it, checkers flag an argument that isn't in the list. 
+- The `typing` module, specifically the special typing form `Literal`.
+- When you open a file as `f` for example, `f` is a `TextIOWrapper` from the `io` module.
+- The `.splitlines()` string method. It takes a string, and cuts it into a list at line breaks.
+
+***4h spent***
